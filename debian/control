@@ -1,0 +1,13 @@
+Source: ros-indigo-imu-monitor
+Section: misc
+Priority: extra
+Maintainer: Devon Ash <ahendrix@willowgarage.com>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin
+Homepage: http://ros.org/wiki/imu_monitor
+Standards-Version: 3.9.2
+
+Package: ros-indigo-imu-monitor
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-diagnostic-msgs, ros-indigo-pr2-mechanism-controllers, ros-indigo-python-orocos-kdl, ros-indigo-rospy, ros-indigo-sensor-msgs
+Description: This package contains a single node that monitors the drift of the IMU gyroscopes.
+ The results are published to the '/diagnostics' topic and are aggregated in the PR2 dashboard.
