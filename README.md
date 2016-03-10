@@ -1,3 +1,34 @@
+## pr2_robot (indigo) - 1.6.16-0
+
+The packages in the `pr2_robot` repository were released into the `indigo` distro by running `/usr/bin/bloom-release --rosdistro indigo --track indigo pr2_robot --edit` on `Thu, 10 Mar 2016 22:06:17 -0000`
+
+These packages were released:
+- `imu_monitor`
+- `pr2_bringup`
+- `pr2_camera_synchronizer`
+- `pr2_computer_monitor`
+- `pr2_controller_configuration`
+- `pr2_ethercat`
+- `pr2_robot`
+- `pr2_run_stop_auto_restart`
+
+Version of package(s) in repository `pr2_robot`:
+
+- upstream repository: https://github.com/pr2/pr2_robot.git
+- release repository: https://github.com/pr2-gbp/pr2_robot-release.git
+- rosdistro version: `1.6.10-4`
+- old version: `1.6.10-7`
+- new version: `1.6.16-0`
+
+Versions of tools used:
+
+- bloom version: `0.5.21`
+- catkin_pkg version: `0.2.10`
+- rosdep version: `0.11.2`
+- rosdistro version: `0.4.5`
+- vcstools version: `0.1.37`
+
+
 ## pr2_robot (indigo) - 1.6.10-7
 
 The packages in the `pr2_robot` repository were released into the `indigo` distro by running `/usr/bin/bloom-release --rosdistro indigo --track indigo pr2_robot` on `Thu, 10 Mar 2016 20:10:10 -0000`
