@@ -1,0 +1,12 @@
+Source: ros-indigo-pr2-robot
+Section: misc
+Priority: extra
+Maintainer: Devon Ash <ahendrix@willowgarage.com>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin
+Homepage: http://ros.org/wiki/pr2_robot
+Standards-Version: 3.9.2
+
+Package: ros-indigo-pr2-robot
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-imu-monitor, ros-indigo-pr2-bringup, ros-indigo-pr2-camera-synchronizer, ros-indigo-pr2-computer-monitor, ros-indigo-pr2-controller-configuration, ros-indigo-pr2-ethercat, ros-indigo-pr2-run-stop-auto-restart
+Description: This stack collects PR2-specific components that are used in bringing up a robot.
