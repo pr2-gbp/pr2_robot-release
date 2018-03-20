@@ -1,0 +1,26 @@
+ros-indigo-pr2-computer-monitor (1.6.26-0trusty) trusty; urgency=high
+
+
+
+ -- Dave Feil-Seifer <dave@cse.unr.edu>  Mon, 19 Mar 2018 07:00:00 -0000
+
+ros-indigo-pr2-computer-monitor (1.6.25-0trusty) trusty; urgency=high
+
+  * updated packages for new maintainer
+  * updated changelogs
+  * Contributors: David Feil-Seifer
+
+ -- Dave Feil-Seifer <dave@cse.unr.edu>  Mon, 19 Mar 2018 07:00:00 -0000
+
+ros-indigo-pr2-computer-monitor (1.6.7-0trusty) trusty; urgency=high
+
+  * Reverted changes
+  * Added dependencies in catkin
+  * Added catkin_package() to pr2_robot
+  * Updated mainpage.dox
+  * Fix binary location of network_detector
+  * Contributors: Ryohei Ueda, TheDash
+
+ -- Dash <dash@clearpathrobotics.com>  Wed, 11 Feb 2015 08:00:00 -0000
+
+
