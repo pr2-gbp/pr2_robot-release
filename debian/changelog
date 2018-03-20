@@ -1,0 +1,22 @@
+ros-indigo-pr2-camera-synchronizer (1.6.26-0trusty) trusty; urgency=high
+
+
+
+ -- Dave Feil-Seifer <dave@cse.unr.edu>  Mon, 19 Mar 2018 07:00:00 -0000
+
+ros-indigo-pr2-camera-synchronizer (1.6.25-0trusty) trusty; urgency=high
+
+  * updated packages for new maintainer
+  * updated changelogs
+  * Contributors: David Feil-Seifer
+
+ -- Dave Feil-Seifer <dave@cse.unr.edu>  Mon, 19 Mar 2018 07:00:00 -0000
+
+ros-indigo-pr2-camera-synchronizer (1.6.7-0trusty) trusty; urgency=high
+
+  * Updated mainpage.dox
+  * Contributors: TheDash
+
+ -- Austin Hendrix <ahendrix@willowgarage.com>  Wed, 11 Feb 2015 08:00:00 -0000
+
+
