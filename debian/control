@@ -1,0 +1,13 @@
+Source: ros-kinetic-imu-monitor
+Section: misc
+Priority: extra
+Maintainer: Dave Feil-Seifer <dave@cse.unr.edu>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin
+Homepage: http://ros.org/wiki/imu_monitor
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-imu-monitor
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-diagnostic-msgs, ros-kinetic-pr2-mechanism-controllers, ros-kinetic-python-orocos-kdl, ros-kinetic-rospy, ros-kinetic-sensor-msgs
+Description: This package contains a single node that monitors the drift of the IMU gyroscopes.
+ The results are published to the '/diagnostics' topic and are aggregated in the PR2 dashboard.
