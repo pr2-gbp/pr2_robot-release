@@ -2,6 +2,11 @@
 Changelog for package pr2_camera_synchronizer
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.6.30 (2018-04-23)
+-------------------
+* removed more tests for jenkins build
+* Contributors: David Feil-Seifer
+
 1.6.29 (2018-04-22)
 -------------------
 * commented out tests that seem to require PR2 to function properly (timing out jenkins build)
