@@ -1,0 +1,12 @@
+Source: ros-melodic-pr2-ethercat
+Section: misc
+Priority: optional
+Maintainer: Dave Feil-Seifer <dave@cse.unr.edu>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin, ros-melodic-diagnostic-msgs, ros-melodic-diagnostic-updater, ros-melodic-ethercat-hardware, ros-melodic-pr2-controller-manager, ros-melodic-realtime-tools, ros-melodic-roscpp, ros-melodic-std-srvs
+Homepage: http://pr.willowgarage.com
+Standards-Version: 3.9.2
+
+Package: ros-melodic-pr2-ethercat
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-diagnostic-msgs, ros-melodic-diagnostic-updater, ros-melodic-ethercat-hardware, ros-melodic-pr2-controller-manager, ros-melodic-realtime-tools, ros-melodic-roscpp, ros-melodic-std-srvs
+Description: Main loop that runs the robot.
