@@ -1,0 +1,12 @@
+Source: ros-melodic-pr2-bringup
+Section: misc
+Priority: optional
+Maintainer: Dave Feil-Seifer <dave@cse.unr.edu>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin, ros-melodic-roslaunch, ros-melodic-rostest
+Homepage: http://ros.org/wiki/pr2_bringup
+Standards-Version: 3.9.2
+
+Package: ros-melodic-pr2-bringup
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-diagnostic-aggregator, ros-melodic-ethercat-trigger-controllers, ros-melodic-imu-monitor, ros-melodic-joint-trajectory-action, ros-melodic-joy, ros-melodic-microstrain-3dmgx2-imu, ros-melodic-ocean-battery-driver, ros-melodic-power-monitor, ros-melodic-pr2-calibration-controllers, ros-melodic-pr2-camera-synchronizer, ros-melodic-pr2-computer-monitor, ros-melodic-pr2-controller-configuration, ros-melodic-pr2-controller-manager, ros-melodic-pr2-dashboard-aggregator, ros-melodic-pr2-description, ros-melodic-pr2-ethercat, ros-melodic-pr2-gripper-action, ros-melodic-pr2-head-action, ros-melodic-pr2-machine, ros-melodic-pr2-power-board, ros-melodic-pr2-run-stop-auto-restart, ros-melodic-prosilica-camera, ros-melodic-robot-mechanism-controllers, ros-melodic-robot-pose-ekf, ros-melodic-robot-state-publisher, ros-melodic-rosbag, ros-melodic-single-joint-position-action, ros-melodic-sound-play, ros-melodic-std-srvs, ros-melodic-stereo-image-proc, ros-melodic-tf2-ros, ros-melodic-urg-node, ros-melodic-wge100-camera, ros-melodic-wifi-ddwrt
+Description: Launch files and scripts needed to bring a PR2 up into a running state.
