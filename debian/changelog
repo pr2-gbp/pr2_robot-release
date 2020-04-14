@@ -1,0 +1,60 @@
+ros-melodic-pr2-computer-monitor (1.6.31-1bionic) bionic; urgency=high
+
+  * add --ignore-self arg in ntp_monitor.py (#259 <https://github.com/pr2/pr2_robot/issues/259>)
+  * fixed CMake errors
+  * Contributors: David Feil-Seifer, Shingo Kitagawa
+
+ -- Dave Feil-Seifer <dave@cse.unr.edu>  Mon, 13 Apr 2020 15:00:00 -0000
+
+ros-melodic-pr2-computer-monitor (1.6.30-1bionic) bionic; urgency=high
+
+  * removed more tests for jenkins build
+  * Contributors: David Feil-Seifer
+
+ -- Dave Feil-Seifer <dave@cse.unr.edu>  Sun, 22 Apr 2018 15:00:00 -0000
+
+ros-melodic-pr2-computer-monitor (1.6.29-1bionic) bionic; urgency=high
+
+
+
+ -- Dave Feil-Seifer <dave@cse.unr.edu>  Sat, 21 Apr 2018 15:00:00 -0000
+
+ros-melodic-pr2-computer-monitor (1.6.28-1bionic) bionic; urgency=high
+
+  * made sure tests only run if CATKIN_ENABLE_TESTING is set
+  * Contributors: David Feil-Seifer
+
+ -- Dave Feil-Seifer <dave@cse.unr.edu>  Fri, 20 Apr 2018 15:00:00 -0000
+
+ros-melodic-pr2-computer-monitor (1.6.27-1bionic) bionic; urgency=high
+
+
+
+ -- Dave Feil-Seifer <dave@cse.unr.edu>  Thu, 19 Apr 2018 15:00:00 -0000
+
+ros-melodic-pr2-computer-monitor (1.6.26-1bionic) bionic; urgency=high
+
+
+
+ -- Dave Feil-Seifer <dave@cse.unr.edu>  Sun, 18 Mar 2018 15:00:00 -0000
+
+ros-melodic-pr2-computer-monitor (1.6.25-1bionic) bionic; urgency=high
+
+  * updated packages for new maintainer
+  * updated changelogs
+  * Contributors: David Feil-Seifer
+
+ -- Dave Feil-Seifer <dave@cse.unr.edu>  Sun, 18 Mar 2018 15:00:00 -0000
+
+ros-melodic-pr2-computer-monitor (1.6.7-1bionic) bionic; urgency=high
+
+  * Reverted changes
+  * Added dependencies in catkin
+  * Added catkin_package() to pr2_robot
+  * Updated mainpage.dox
+  * Fix binary location of network_detector
+  * Contributors: Ryohei Ueda, TheDash
+
+ -- Dave Feil-Seifer <dave@cse.unr.edu>  Tue, 10 Feb 2015 15:00:00 -0000
+
+
