@@ -1,0 +1,54 @@
+ros-melodic-pr2-controller-configuration (1.6.31-1stretch) stretch; urgency=high
+
+  * fixed integer cast to void* warning in pr2_ethercat; fixed broken launchtest for now
+  * Contributors: David Feil-Seifer
+
+ -- Dave Feil-Seifer <dave@cse.unr.edu>  Mon, 13 Apr 2020 15:00:00 -0000
+
+ros-melodic-pr2-controller-configuration (1.6.30-1stretch) stretch; urgency=high
+
+
+
+ -- Dave Feil-Seifer <dave@cse.unr.edu>  Sun, 22 Apr 2018 15:00:00 -0000
+
+ros-melodic-pr2-controller-configuration (1.6.29-1stretch) stretch; urgency=high
+
+
+
+ -- Dave Feil-Seifer <dave@cse.unr.edu>  Sat, 21 Apr 2018 15:00:00 -0000
+
+ros-melodic-pr2-controller-configuration (1.6.28-1stretch) stretch; urgency=high
+
+
+
+ -- Dave Feil-Seifer <dave@cse.unr.edu>  Fri, 20 Apr 2018 15:00:00 -0000
+
+ros-melodic-pr2-controller-configuration (1.6.27-1stretch) stretch; urgency=high
+
+
+
+ -- Dave Feil-Seifer <dave@cse.unr.edu>  Thu, 19 Apr 2018 15:00:00 -0000
+
+ros-melodic-pr2-controller-configuration (1.6.26-1stretch) stretch; urgency=high
+
+
+
+ -- Dave Feil-Seifer <dave@cse.unr.edu>  Sun, 18 Mar 2018 15:00:00 -0000
+
+ros-melodic-pr2-controller-configuration (1.6.25-1stretch) stretch; urgency=high
+
+  * updated packages for new maintainer
+  * updated changelogs
+  * Contributors: David Feil-Seifer
+
+ -- Dave Feil-Seifer <dave@cse.unr.edu>  Sun, 18 Mar 2018 15:00:00 -0000
+
+ros-melodic-pr2-controller-configuration (1.6.7-1stretch) stretch; urgency=high
+
+  * Updated mainpage.dox
+  * Corrected typo in description of pr2 effort controllers.
+  * Contributors: Georg Bartels, TheDash
+
+ -- Dave Feil-Seifer <dave@cse.unr.edu>  Tue, 10 Feb 2015 15:00:00 -0000
+
+
