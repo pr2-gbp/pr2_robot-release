@@ -1,0 +1,12 @@
+Source: ros-melodic-pr2-robot
+Section: misc
+Priority: optional
+Maintainer: Dave Feil-Seifer <dave@cse.unr.edu>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin
+Homepage: http://ros.org/wiki/pr2_robot
+Standards-Version: 3.9.2
+
+Package: ros-melodic-pr2-robot
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-imu-monitor, ros-melodic-pr2-bringup, ros-melodic-pr2-camera-synchronizer, ros-melodic-pr2-computer-monitor, ros-melodic-pr2-controller-configuration, ros-melodic-pr2-ethercat, ros-melodic-pr2-run-stop-auto-restart
+Description: This stack collects PR2-specific components that are used in bringing up a robot.
