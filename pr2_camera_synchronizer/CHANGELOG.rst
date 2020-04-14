@@ -2,6 +2,9 @@
 Changelog for package pr2_camera_synchronizer
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.6.31 (2020-04-14)
+-------------------
+
 1.6.30 (2018-04-23)
 -------------------
 * removed more tests for jenkins build
