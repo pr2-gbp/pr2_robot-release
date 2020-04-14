@@ -1,3 +1,34 @@
+## pr2_robot (melodic) - 1.6.31-1
+
+The packages in the `pr2_robot` repository were released into the `melodic` distro by running `/usr/bin/bloom-release pr2_robot --rosdistro melodic --track melodic -y` on `Tue, 14 Apr 2020 03:55:24 -0000`
+
+These packages were released:
+- `imu_monitor`
+- `pr2_bringup`
+- `pr2_camera_synchronizer`
+- `pr2_computer_monitor`
+- `pr2_controller_configuration`
+- `pr2_ethercat`
+- `pr2_robot`
+- `pr2_run_stop_auto_restart`
+
+Version of package(s) in repository `pr2_robot`:
+
+- upstream repository: https://github.com/pr2/pr2_robot.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `1.6.31-1`
+
+Versions of tools used:
+
+- bloom version: `0.9.0`
+- catkin_pkg version: `0.4.16`
+- rosdep version: `0.18.0`
+- rosdistro version: `0.8.0`
+- vcstools version: `0.1.42`
+
+
 ## pr2_robot (kinetic) - 1.6.30-0
 
 The packages in the `pr2_robot` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release pr2_robot --track kinetic --ros-distro kinetic` on `Mon, 23 Apr 2018 19:56:37 -0000`
