@@ -1,0 +1,13 @@
+Source: ros-noetic-imu-monitor
+Section: misc
+Priority: optional
+Maintainer: Dave Feil-Seifer <dave@cse.unr.edu>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-catkin
+Homepage: http://ros.org/wiki/imu_monitor
+Standards-Version: 3.9.2
+
+Package: ros-noetic-imu-monitor
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, python3-pykdl, ros-noetic-diagnostic-msgs, ros-noetic-pr2-mechanism-controllers, ros-noetic-rospy, ros-noetic-sensor-msgs
+Description: This package contains a single node that monitors the drift of the IMU gyroscopes.
+ The results are published to the '/diagnostics' topic and are aggregated in the PR2 dashboard.
