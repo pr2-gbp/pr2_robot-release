@@ -1,0 +1,13 @@
+Source: ros-noetic-pr2-camera-synchronizer
+Section: misc
+Priority: optional
+Maintainer: Dave Feil-Seifer <dave@cse.unr.edu>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-catkin, ros-noetic-dynamic-reconfigure, ros-noetic-rostest
+Homepage: http://pr.willowgarage.com/wiki/pr2_camera_synchronizer
+Standards-Version: 3.9.2
+
+Package: ros-noetic-pr2-camera-synchronizer
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-diagnostic-msgs, ros-noetic-dynamic-reconfigure, ros-noetic-ethercat-trigger-controllers, ros-noetic-rospy, ros-noetic-wge100-camera
+Description: The PR2 is equipped with a texture projector that can be used to project a texture onto featureless surfaces, allowing their three-dimensional structure to be determined using stereoscopy.
+ The projector operates in a pulsed mode, producing brief (2ms) pulses of light. Cameras that want to see the texture must expose during the projector pulse; other cameras should be expose while the projector is off. This package contains the pr2_projector_synchronizer node. Based on its dynamically reconfigurable parameters, this node controls the projector pulsing, and sets up triggering of the WGE100 cameras.
