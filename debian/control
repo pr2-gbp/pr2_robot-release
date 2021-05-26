@@ -1,0 +1,12 @@
+Source: ros-noetic-pr2-computer-monitor
+Section: misc
+Priority: optional
+Maintainer: Dave Feil-Seifer <dave@cse.unr.edu>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-catkin, ros-noetic-diagnostic-msgs, ros-noetic-pr2-msgs, ros-noetic-roscpp, ros-noetic-std-msgs
+Homepage: http://www.ros.org/wiki/pr2_computer_monitor
+Standards-Version: 3.9.2
+
+Package: ros-noetic-pr2-computer-monitor
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-diagnostic-msgs, ros-noetic-pr2-msgs, ros-noetic-roscpp, ros-noetic-rospy, ros-noetic-std-msgs
+Description: Monitors the computer's processor and hard drives of the PR2 and publishes data to diagnostics.
