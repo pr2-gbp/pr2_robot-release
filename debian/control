@@ -1,0 +1,12 @@
+Source: ros-noetic-pr2-ethercat
+Section: misc
+Priority: optional
+Maintainer: Dave Feil-Seifer <dave@cse.unr.edu>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-catkin, ros-noetic-diagnostic-msgs, ros-noetic-diagnostic-updater, ros-noetic-ethercat-hardware, ros-noetic-pr2-controller-manager, ros-noetic-realtime-tools, ros-noetic-roscpp, ros-noetic-std-srvs
+Homepage: http://pr.willowgarage.com
+Standards-Version: 3.9.2
+
+Package: ros-noetic-pr2-ethercat
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-diagnostic-msgs, ros-noetic-diagnostic-updater, ros-noetic-ethercat-hardware, ros-noetic-pr2-controller-manager, ros-noetic-realtime-tools, ros-noetic-roscpp, ros-noetic-std-srvs
+Description: Main loop that runs the robot.
