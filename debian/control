@@ -1,0 +1,12 @@
+Source: ros-noetic-pr2-controller-configuration
+Section: misc
+Priority: optional
+Maintainer: Dave Feil-Seifer <dave@cse.unr.edu>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-catkin, ros-noetic-roslaunch
+Homepage: http://ros.org/wiki/pr2_controller_configuration
+Standards-Version: 3.9.2
+
+Package: ros-noetic-pr2-controller-configuration
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-pr2-controller-manager, ros-noetic-pr2-gripper-action, ros-noetic-pr2-head-action, ros-noetic-pr2-machine, ros-noetic-robot-mechanism-controllers, ros-noetic-single-joint-position-action
+Description: Configuration files for PR2 controllers.
