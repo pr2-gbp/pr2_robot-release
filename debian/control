@@ -1,0 +1,12 @@
+Source: ros-noetic-pr2-bringup
+Section: misc
+Priority: optional
+Maintainer: Dave Feil-Seifer <dave@cse.unr.edu>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-catkin, ros-noetic-roslaunch, ros-noetic-rostest
+Homepage: http://ros.org/wiki/pr2_bringup
+Standards-Version: 3.9.2
+
+Package: ros-noetic-pr2-bringup
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-diagnostic-aggregator, ros-noetic-ethercat-trigger-controllers, ros-noetic-imu-monitor, ros-noetic-joint-trajectory-action, ros-noetic-joy, ros-noetic-microstrain-3dmgx2-imu, ros-noetic-ocean-battery-driver, ros-noetic-power-monitor, ros-noetic-pr2-calibration-controllers, ros-noetic-pr2-camera-synchronizer, ros-noetic-pr2-computer-monitor, ros-noetic-pr2-controller-configuration, ros-noetic-pr2-controller-manager, ros-noetic-pr2-dashboard-aggregator, ros-noetic-pr2-description, ros-noetic-pr2-ethercat, ros-noetic-pr2-gripper-action, ros-noetic-pr2-head-action, ros-noetic-pr2-machine, ros-noetic-pr2-power-board, ros-noetic-pr2-run-stop-auto-restart, ros-noetic-prosilica-camera, ros-noetic-robot-mechanism-controllers, ros-noetic-robot-pose-ekf, ros-noetic-robot-state-publisher, ros-noetic-rosbag, ros-noetic-single-joint-position-action, ros-noetic-sound-play, ros-noetic-std-srvs, ros-noetic-stereo-image-proc, ros-noetic-tf2-ros, ros-noetic-urg-node, ros-noetic-wge100-camera, ros-noetic-wifi-ddwrt
+Description: Launch files and scripts needed to bring a PR2 up into a running state.
